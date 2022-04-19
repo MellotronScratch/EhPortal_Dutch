@@ -1,5 +1,7 @@
 ﻿<?php
-// Version: 1.3; EhPortal
+// Version: 1.34; EhPortal
+// Based on Dutch translation for Simple Portal 2.3
+// Last revision: 2022-04-19 by MellotronScratch
 
 // General strings
 $txt['sp-forum'] = 'Forum'; // No translation
