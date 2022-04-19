@@ -3,13 +3,13 @@
 
 // Configuration area
 $txt['sp-adminConfiguration'] = 'Configuratie';
-$txt['sp-adminConfigurationDesc'] = 'Hier kan je SimplePortal informatie bekijken en SimplePortal beheren.';
+$txt['sp-adminConfigurationDesc'] = 'Hier kan je EhPortral informatie bekijken en EhPortal beheren.';
 $txt['sp-adminGeneralSettingsName'] = 'Algemene instellingen';
 $txt['sp-adminBlockSettingsName'] = 'Blok instellingen';
 $txt['sp-adminArticleSettingsName'] = 'Artikel instellingen';
 
 // General settings
-$txt['portalactive'] = 'Activeer SimplePortal';
+$txt['portalactive'] = 'Activeer EhPortal';
 $txt['sp_portal_mode'] = 'Portaal Modus';
 $txt['sp_portal_mode_options'] = 'Gedeactiveerd|Voorpagina|Geïntegreerd|Standalone';
 $txt['sp_maintenance'] = 'Onderhoudsmodus';
@@ -391,7 +391,7 @@ $txt['sp_admin_shoutbox_edit'] = 'Bewerk Shoutbox';
 $txt['sp_admin_shoutbox_prune'] = 'Prune Shoutbox'; //Needs translation
 $txt['sp_admin_shoutbox_remove'] = 'Verwijder Shoutboxen';
 
-$txt['sp_admin_shoutbox_desc'] = 'Je kan hier SimplePortal Shoutboxen aanmaken en beheren.';
+$txt['sp_admin_shoutbox_desc'] = 'Je kan hier EhPortal Shoutboxen aanmaken en beheren.';
 $txt['sp_shoutbox_remove_confirm'] = 'Weet je het zeker dat je de geselecteerde Shoutboxen wilt verwijderen?';
 $txt['sp_admin_shoutbox_delete_confirm'] = 'Weet u zeker dat u deze shoutbox wilt verwijderen?';
 $txt['sp_error_no_shoutbox'] = 'Er zijn geen Shoutboxen beschikbaar.';
@@ -460,15 +460,15 @@ $txt['sp-stateNo'] = 'Nee';
 
 // Information area
 $txt['sp-info_title'] = 'Informatie';
-$txt['sp-info_desc'] = 'Enige nuttige systeem- en SimplePortal informatie.';
+$txt['sp-info_desc'] = 'Enige nuttige systeem- en EhPortal informatie.';
 $txt['sp-info_live'] = 'Live van SimplePortal...';
-$txt['sp-info_no_live'] = 'Sorry! Op dit moment is het niet mogelijk om verbinding te maken met de simpleportals nieuwsserver.';
+$txt['sp-info_no_live'] = 'Sorry! Op dit moment is het niet mogelijk om verbinding te maken met de ehportals nieuwsserver.';
 $txt['sp-info_general'] = 'Algemene informatie';
 $txt['sp-info_versions'] = 'Versie informatie';
 $txt['sp-info_your_version'] = 'Jouw versie';
 $txt['sp-info_current_version'] = 'Actuele versie';
 $txt['sp-info_managers'] = 'Managers'; // No translation
-$txt['sp-info_intro'] = 'Het SimplePortal Team wil iedereen bedanken, die meegeholpen hebben om SimplePortal te maken voor wat het nu is en het Simple Machines Team voor het fantastische forum software, SMF. Het zou niet mogelijk zijn geweest zonder jullie, onze gebruikers en SMF.';
+$txt['sp-info_intro'] = 'Het EhPortal Team wil iedereen bedanken, die meegeholpen hebben om EhPortal te maken voor wat het nu is en het Simple Machines Team voor het fantastische forum software, SMF. Het zou niet mogelijk zijn geweest zonder jullie, onze gebruikers en SMF.';
 $txt['sp-info_team'] = 'Het Team';
 $txt['sp-info_special'] = 'Een speciaal bedankje voor';
 $txt['sp-info_and'] = 'en';
@@ -482,42 +482,41 @@ $txt['sp-info_groups_language'] = 'Taal managers';
 $txt['sp-info_groups_marketing'] = 'Marketing'; // No translation
 $txt['sp-info_groups_beta'] = 'Beta testers';
 $txt['sp-info_groups_translators'] = 'Vertalers';
-$txt['sp-info_translators_message'] = 'Hartelijk dank voor je inzet om SimplePortal te internationaliseren.';
-$txt['sp-info_groups_founder'] = 'SimplePortal\'s geestelijk vader';
+$txt['sp-info_translators_message'] = 'Hartelijk dank voor je inzet om EhPortal te internationaliseren.';
+$txt['sp-info_groups_founder'] = 'EhPortal\'s geestelijk vader';
 $txt['sp-info_groups_orignal_pm'] = 'Originele project managers';
 $txt['sp-info_fam_fam'] = 'Mooie iconen';
 $txt['sp-info_fam_fam_message'] = 'Mark James voor zijn <a href="http://www.famfamfam.com/lab/icons/silk/">Fam Fam Fam zijde iconen</a>.';
 $txt['sp-info_contribute'] = 'Gebruik je SimplePortal? <a href="%s" target="_blank">Doe een bijdrage aan het project!</a>.';
 
 // Permissions
-$txt['permissiongroup_sp'] = 'SimplePortal'; // No translation
-$txt['permissiongroup_simple_sp'] = 'SimplePortal'; // No translation
+$txt['permissiongroup_sp'] = 'EhPortal'; // No translation
+$txt['permissiongroup_simple_sp'] = 'EhPortal'; // No translation
 $txt['permissionname_sp_admin'] = 'Beheer portaal';
-$txt['permissionhelp_sp_admin'] = 'Deze permissie staat gebruikers toe om SimplePortal te beheren.';
+$txt['permissionhelp_sp_admin'] = 'Deze permissie staat gebruikers toe om EhPortal te beheren.';
 $txt['permissionname_sp_manage_settings'] = 'Beheer portaal instellingen';
-$txt['permissionhelp_sp_manage_settings'] = 'Deze permissie staat gebruikers toe om de instellingen van SimplePortal te beheren.';
+$txt['permissionhelp_sp_manage_settings'] = 'Deze permissie staat gebruikers toe om de instellingen van EhPortal te beheren.';
 $txt['permissionname_sp_manage_blocks'] = 'Beheer portaal blokken';
-$txt['permissionhelp_sp_manage_blocks'] = 'Deze permissie staat gebruikers toe om de blokken van SimplePortal te beheren.';
+$txt['permissionhelp_sp_manage_blocks'] = 'Deze permissie staat gebruikers toe om de blokken van EhPortal te beheren.';
 $txt['permissionname_sp_manage_articles'] = 'Beheer artikelen';
-$txt['permissionhelp_sp_manage_articles'] = 'Deze permissie staat gebruikers toe om de artikelen van SimplePortal te beheren.';
+$txt['permissionhelp_sp_manage_articles'] = 'Deze permissie staat gebruikers toe om de artikelen van EhPortal te beheren.';
 $txt['permissionname_sp_manage_pages'] = 'Beheer portaal pagina\'s';
-$txt['permissionhelp_sp_manage_pages'] = 'Deze permissie staat gebruikers toe om de pagina\'s van SimplePortal te beheren.';
+$txt['permissionhelp_sp_manage_pages'] = 'Deze permissie staat gebruikers toe om de pagina\'s van EhPortal te beheren.';
 $txt['permissionname_sp_manage_shoutbox'] = 'Beheer portaal shoutboxen';
-$txt['permissionhelp_sp_manage_shoutbox'] = 'Deze permissie staat gebruikers toe om de Shoutboxen van SimplePortal te beheren.';
+$txt['permissionhelp_sp_manage_shoutbox'] = 'Deze permissie staat gebruikers toe om de Shoutboxen van EhPortal te beheren.';
 $txt['permissionname_sp_add_article'] = 'Kan een artikel toevoegen';
-$txt['permissionhelp_sp_add_article'] = 'Deze permissie staat gebruikers toe om een artikel aan SimplePortal toe te voegen.';
+$txt['permissionhelp_sp_add_article'] = 'Deze permissie staat gebruikers toe om een artikel aan EhPortal toe te voegen.';
 $txt['permissionname_sp_auto_article_approval'] = 'Automatisch artikel goedkeuring';
-$txt['permissionhelp_sp_auto_article_approval'] = 'Deze permissie staat gebruikers toe om een artikel aan SimplePortal toe te voegen zonder goedkeuring.';
+$txt['permissionhelp_sp_auto_article_approval'] = 'Deze permissie staat gebruikers toe om een artikel aan EhPortal toe te voegen zonder goedkeuring.';
 $txt['permissionname_sp_remove_article'] = 'Can remove article'; //Needs translation
 $txt['permissionhelp_sp_remove_article'] = 'This permission allows users to remove articles.'; //Needs translation
 $txt['permissionname_sp_own_profile'] = 'Can Edit Own EhPortal Profile'; //Needs translation
 $txt['permissionhelp_sp_own_profile'] = 'This permission allows users to edit their own EhPortal profile settings.'; //Needs translation
 
 // Compatibility strings
-$txt['sp-adminCatHelp'] = 'Hier kan je SimplePortal beheren.';
-$txt['sp-adminCatDesc'] = 'Hier kan je SimplePortal beheren.';
+$txt['sp-adminCatHelp'] = 'Hier kan je EhPortal beheren.';
+$txt['sp-adminCatDesc'] = 'Hier kan je EhPortal beheren.';
 
-?>
 ########## Old values from SimplePortal ##########
 /**
  * $txt['sp-blocksMoveUp'] = 'Omhoog';
@@ -533,3 +532,4 @@ $txt['sp-adminCatDesc'] = 'Hier kan je SimplePortal beheren.';
  * $txt['sp_admin_pages_col_permissions_type'] = 'Permissie Type';
  * $txt['sp_admin_shoutbox_col_permissions_type'] = 'Permissie Type';
  */
+?>
