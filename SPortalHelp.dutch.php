@@ -1,5 +1,7 @@
 ﻿<?php
-// Version: 1.3; EhPortal
+// Version: 1.34; EhPortal
+// Based on Dutch translation for Simple Portal 2.3
+// Last revision: 2022-04-19 by MellotronScratch
 
 global $helptxt;
 
@@ -177,9 +179,10 @@ $helptxt['sp_param_sp_html_content'] = 'Plaats hier zelf gemaakte HTML code.';
 $helptxt['sp_param_sp_bbc_content'] = 'Plaats hier zelf gemaakte BBC code.';
 $helptxt['sp_param_sp_php_content'] = 'Plaats hier zelf gemaakte HTML code.';
 
-?>
 ########## Old values from SimplePortal ##########
 /**
  * $helptxt['sp-blocksPermissionType'] = 'Deze optie maakt het mogelijk om permissies toe te passen op blokken. Of het lid moet in alle groepen zijn om het blok te zien, in een van de groepen of geen van de groepen (dan wordt het permissie systeem dus genegeerd). Hier kan het ingesteld worden.
  * $helptxt['sp_param_sp_rssFeed_titles_only'] = 'Toont feed titels, zonder inhoud.';
  */
+
+?>
