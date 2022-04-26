@@ -6,8 +6,8 @@
 // General strings
 $txt['sp-forum'] = 'Forum'; // No translation
 $txt['sp-portal'] = 'Portaal';
-$txt['sp-adminTitle'] = 'SimplePortal Beheer';
-$txt['sp-adminCatTitle'] = 'SimplePortal'; // No translation
+$txt['sp-adminTitle'] = 'EhPortal Beheer';
+$txt['sp-adminCatTitle'] = 'EhPortal'; // No translation
 $txt['sp-add_article'] = 'Voeg toe als artikel';
 $txt['sp-remove_article'] = 'Verwijder artikel';
 $txt['sp-dot'] = 'Punt';
