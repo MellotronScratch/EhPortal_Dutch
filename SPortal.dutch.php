@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Version: 1.34; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // Last revision: 2022-04-19 by MellotronScratch
@@ -120,7 +120,7 @@ $txt['error_sp_no_shop_found'] = 'Er zijn geen shop mods aangetroffen.';
 $txt['error_sp_no_arcade_found'] = 'Er zijn geen arcade mods aangetroffen.';
 $txt['error_sp_no_stats_found'] = 'Er zijn geen statistieken aangetroffen.';
 $txt['error_sp_page_not_found'] = 'De opgevraagde pagina kan niet worden gevonden.';
-$txt['error_sp_shoutbox_not_exist'] = $context['user']['is_admin'] ? 'Helaas, het lijkt erop dat deze shoutbox alleen in jouw hoofd bestaat.' : 'Sorry, deze shoutbox bestaat niet.';
+$txt['error_sp_shoutbox_not_exist'] = 'Sorry, deze shoutbox bestaat niet.';
 $txt['error_sp_no_shoutbox'] = 'Er zijn nog geen shoutboxes aangemaakt.';
 $txt['error_sp_no_shoutbox_sp_moderator'] = 'Een nieuw shoutbox kan worden aangemaakt <a href="%s">here</a>.';
 $txt['error_sp_no_shoutbox_normaluser'] = 'Sorry, Voordat er een shoutbox-blok kan worden geactiveerd moet er eerst een shoutbox zijn aangemaakt ! Vraag uw administrator om een nieuwe shoutbox aan te maken.';
