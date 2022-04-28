@@ -1,6 +1,7 @@
 <?php
 // Version: 1.34; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
+// https://github.com/MellotronScratch/EhPortal_Dutch/
 // Last revision: 2022-04-19 by MellotronScratch
 
 // General strings
@@ -87,7 +88,7 @@ $txt['sp_topStatsMember_Casino'] = 'Casino Cash'; // No translation
 $txt['sp_who_index'] = 'bekijkt het <a href="' . $scripturl . '">portaal</a>.';
 $txt['sp_who_forum'] = 'bekijkt het <a href="' . $scripturl . '?action=forum">forum</a>.';
 $txt['sp_who_page'] = 'bekijkt de pagina\'s &quot;<a href="' . $scripturl . '?page=%1$s">%2$s</a>&quot;.';
-$txt['sp_who_shout_history'] = 'Viewing the <a href="%s">shoutbox history</a>.'; //Needs translation
+$txt['sp_who_shout_history'] = 'bekijkt de  <a href="%s">shoutbox geschiedenis</a>.';
 
 // Error messages
 $txt['error_sp_no_message_id'] = 'Ongeldig bericht ID.';
@@ -140,7 +141,7 @@ $txt['sp_hyperlink'] = 'Insert Hyperlink'; //Needs translation
 $txt['sp_insert_email'] = 'Insert Email'; //Needs translation
 $txt['sp_ftp'] = 'Insert FTP Link'; //Needs translation
 $txt['sp_glow'] = 'Glow'; //Needs translation
-$txt['sp_shadow'] = 'Shadow'; //Needs translation
+$txt['sp_shadow'] = 'Schaduw';
 $txt['sp_superscript'] = 'Superscript'; //Needs translation
 $txt['sp_subscript'] = 'Subscript'; //Needs translation
 $txt['sp_teletype'] = 'Teletype'; //Needs translation
@@ -157,8 +158,8 @@ $txt['sp_arcade_shout_member_champ_score'] = '%s is the new champion of %s with 
 $txt['sp_arcade_shout_arena_score'] = 'From the Arena: %s scored %s on %s for round %s'; //Needs translation
 
 // EhPortal Profile
-$txt['EhPortalSettings'] = 'EhPortal Preferences'; //Needs translation
-$txt['EhPortalSettingsDesc'] = 'EhPortal Profile Options'; //Needs translation
+$txt['EhPortalSettings'] = 'EhPortal Eigenschappen';
+$txt['EhPortalSettingsDesc'] = 'EhPortal Profiel Opties';
 $txt['EhPortalIgnoreShouts'] = 'Honor ignored users for the shoutbox'; //Needs translation
 $txt['EhPortalDisableAudio'] = 'Enable shoutbox audio'; //Needs translation
 
