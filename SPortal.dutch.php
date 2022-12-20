@@ -16,12 +16,12 @@ $txt['sp-arrow'] = 'Pijl';
 $txt['sp-star'] = 'Ster';
 $txt['sp_yes'] = 'Ja';
 $txt['sp_no'] = 'Nee';
-$txt['sp_move'] = 'Move'; //Needs translation
+$txt['sp_move'] = 'Verplaats';
 $txt['sp_fixbox'] = 'Fix Total Shouts'; //Needs translation
-$txt['sp_all'] = 'All'; //Needs translation
+$txt['sp_all'] = 'Alles';
 $txt['sp_link'] = '[link]'; //Needs translation
 $txt['sp_function_unknown_label'] = 'Onbekend Blok Type';
-$txt['sp_welcome_guest'] = 'Welcome <strong>%1$s</strong>. <div>Please <a href="%2$s" target="_self">log in</a>.</div>'; //Needs translation
+$txt['sp_welcome_guest'] = 'Welkom <strong>%1$s</strong>. <div>Log <a href="%2$s" target="_self">alstublieft in</a>.</div>';
 
 // Block specific strings
 $txt['sp-usertmessage'] = 'Totaal aantal berichten';
@@ -84,12 +84,12 @@ $txt['sp_topStatsMember_SA_Shop_Cash'] = 'SA Shop Cash'; // No translation
 $txt['sp_topStatsMember_SA_Shop_Trades'] = 'SA Shop Trades'; // No translation
 $txt['sp_topStatsMember_SA_Shop_Purchase'] = 'SA Shop Purchase'; // No translation
 $txt['sp_topStatsMember_Casino'] = 'Casino Cash'; // No translation
-$txt['sp_totalTimeLogged1'] = 'Total time logged in: '; //Needs translation
-$txt['sp_totalTimeLogged2'] = ' days, '; //Needs translation
-$txt['sp_totalTimeLogged3'] = ' hours and '; //Needs translation
-$txt['sp_totalTimeLogged4'] = ' minutes.'; //Needs translation
+$txt['sp_totalTimeLogged1'] = 'Totale tijd ingelogd: ';
+$txt['sp_totalTimeLogged2'] = ' dagen, ';
+$txt['sp_totalTimeLogged3'] = ' uren en ';
+$txt['sp_totalTimeLogged4'] = ' minuten.';
 $txt['sp_totalTimeLogged5'] = 'd ';
-$txt['sp_totalTimeLogged6'] = 'h '; //Needs translation
+$txt['sp_totalTimeLogged6'] = 'u ';
 $txt['sp_totalTimeLogged7'] = 'm';
 
 // Who area strings
@@ -138,10 +138,10 @@ $txt['error_sp_no_block'] = 'There aren\'t any blocks created yet.'; //Needs tra
 $txt['error_sp_flood_spsbp'] = 'Your last shout was less than %1$d seconds ago. Please try again later.'; //Needs translation
 
 // Shoutbox
-$txt['sp_bold'] = 'Bold'; //Needs translation
-$txt['sp_italic'] = 'Italic'; //Needs translation
-$txt['sp_underline'] = 'Underline'; //Needs translation
-$txt['sp_strike'] = 'Strikethrough'; //Needs translation
+$txt['sp_bold'] = 'Vet';
+$txt['sp_italic'] = 'Cursief';
+$txt['sp_underline'] = 'Onderstrepen';
+$txt['sp_strike'] = 'Doorhalen';
 $txt['sp_preformatted'] = 'Pre'; //Needs translation
 $txt['sp_flash'] = 'Flash'; //Needs translation
 $txt['sp_image'] = 'Insert Image'; //Needs translation
@@ -155,9 +155,9 @@ $txt['sp_subscript'] = 'Subscript'; //Needs translation
 $txt['sp_teletype'] = 'Teletype'; //Needs translation
 $txt['sp_bbc_quote'] = 'Quote'; //Needs translation
 $txt['sp_bbc_code'] = 'Code'; //Needs translation
-$txt['sp_font_size'] = 'Font Size'; //Needs translation
+$txt['sp_font_size'] = 'Tekengrootte';
 $txt['sp_font_face'] = 'Font Face'; //Needs translation
-$txt['sp_change_color'] = 'Change Color'; //Needs translation
+$txt['sp_change_color'] = 'Verander kleur'; 
 $txt['sp_logged_out'] = 'You have been logged out of the forum.'; //Needs translation
 $txt['sp_log_back'] = '<-- Click here to log back in -->'; //Needs translation
 $txt['sp_arcade_shout_guest_score'] = 'Guest scored %s on %s'; //Needs translation
