@@ -12,3 +12,5 @@ Added missing parameters and added more translations.
 
 ## v.134
 First realease, based on EhPortal v1.34, merged with translation from Simple Portal.
+
+Download [v.134](https://github.com/MellotronScratch/EhPortal_Dutch/archive/refs/tags/v1.34.zip) release.
