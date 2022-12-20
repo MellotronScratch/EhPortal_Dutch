@@ -1,7 +1,8 @@
 ﻿<?php
-// Version: 1.34; EhPortal
+// Version: 1.39; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
-// Last revision: 2022-04-19 by MellotronScratch
+// https://github.com/MellotronScratch/EhPortal_Dutch/
+// Last revision: 2022-12-20 by MellotronScratch
 
 // Configuration area
 $txt['sp-adminConfiguration'] = 'Configuratie';
@@ -441,7 +442,7 @@ $txt['sp_admin_shoutbox_opt_member'] = 'Delete shouts posted by a member'; //Nee
 $txt['sp_admin_shoutbox_block_redirect_message'] = 'Gefeliciteerd, u heeft een nieuwe shoutbox gecreëerd! De shoutbox is nog niet zichtbaar op uw forum.<br />
 <p>Although it won\'t be displayed anywhere within your forum yet. You will need to create a shoutbox block before your users can use the shoutbox.</p>
 <p>Click <a href="%s">here</a> to create a new shoutbox block for this shoutbox.</p>
-<p>Click <a href="%s">here</a> to continue to your list of shoutboxes.</p>';
+<p>Click <a href="%s">here</a> to continue to your list of shoutboxes.</p>'; //Needs translation
 
 // General titles
 $txt['sp-adminColumnAction'] = 'Actie';

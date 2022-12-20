@@ -1,8 +1,8 @@
 <?php
-// Version: 1.34; EhPortal
+// Version: 1.39; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // https://github.com/MellotronScratch/EhPortal_Dutch/
-// Last revision: 2022-04-19 by MellotronScratch
+// Last revision: 2022-12-20 by MellotronScratch
 
 // General strings
 $txt['sp-forum'] = 'Forum'; // No translation
@@ -21,6 +21,7 @@ $txt['sp_fixbox'] = 'Fix Total Shouts'; //Needs translation
 $txt['sp_all'] = 'All'; //Needs translation
 $txt['sp_link'] = '[link]'; //Needs translation
 $txt['sp_function_unknown_label'] = 'Onbekend Blok Type';
+$txt['sp_welcome_guest'] = 'Welcome <strong>%1$s</strong>. <div>Please <a href="%2$s" target="_self">log in</a>.</div>'; //Needs translation
 
 // Block specific strings
 $txt['sp-usertmessage'] = 'Totaal aantal berichten';
@@ -83,6 +84,13 @@ $txt['sp_topStatsMember_SA_Shop_Cash'] = 'SA Shop Cash'; // No translation
 $txt['sp_topStatsMember_SA_Shop_Trades'] = 'SA Shop Trades'; // No translation
 $txt['sp_topStatsMember_SA_Shop_Purchase'] = 'SA Shop Purchase'; // No translation
 $txt['sp_topStatsMember_Casino'] = 'Casino Cash'; // No translation
+$txt['sp_totalTimeLogged1'] = 'Total time logged in: '; //Needs translation
+$txt['sp_totalTimeLogged2'] = ' days, '; //Needs translation
+$txt['sp_totalTimeLogged3'] = ' hours and '; //Needs translation
+$txt['sp_totalTimeLogged4'] = ' minutes.'; //Needs translation
+$txt['sp_totalTimeLogged5'] = 'd ';
+$txt['sp_totalTimeLogged6'] = 'h '; //Needs translation
+$txt['sp_totalTimeLogged7'] = 'm';
 
 // Who area strings
 $txt['sp_who_index'] = 'bekijkt het <a href="' . $scripturl . '">portaal</a>.';

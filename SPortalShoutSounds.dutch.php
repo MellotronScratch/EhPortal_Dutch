@@ -1,7 +1,8 @@
 <?php
-// Version: 1.34; //Needs translation EhPortal
+// Version: 1.39; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
-// Last revision: 2022-04-19 by MellotronScratch 
+// https://github.com/MellotronScratch/EhPortal_Dutch/
+// Last revision: 2022-12-20 by MellotronScratch
 
 /* Admin menu */
 
