@@ -2,7 +2,7 @@
 // Version: 1.39.5; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // https://github.com/MellotronScratch/EhPortal_Dutch/
-// Last revision: 2022-12-20 by MellotronScratch
+// Last revision: 2023-08-10 by MellotronScratch
 
 // Configuration area
 $txt['sp-adminConfiguration'] = 'Configuratie';
