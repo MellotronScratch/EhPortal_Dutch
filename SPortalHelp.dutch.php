@@ -1,5 +1,5 @@
 ﻿<?php
-// Version: 1.39; EhPortal
+// Version: 1.39.5; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // https://github.com/MellotronScratch/EhPortal_Dutch/
 // Last revision: 2022-12-20 by MellotronScratch
@@ -7,62 +7,72 @@
 global $helptxt;
 
 // Configuration area
-$helptxt['sp_ConfigurationArea'] = 'Hier kan je SimplePortal aanpassen aan je behoefte.';
+$helptxt['sp_ConfigurationArea'] = 'Here you can configure EhPortal to meet your needs.';
 
 // General settings
-$helptxt['portalactive'] = 'Dit zal de portaal activeren.';
-$helptxt['sp_portal_mode'] = 'SimplePortal kan draaien in verschillende modes. Deze optie maakt het mogelijk de gewenste mode te kiezen. Ondersteunde modes zijn:<br /><br />
+$helptxt['portalactive'] = 'This will enable the portal page.';
+$helptxt['sp_portal_mode'] = 'EhPortal can run in several modes. This option enables you to select the mode you wish to use. Supported modes include:<br /><br />
 <strong>Disabled:</strong> This will completely disable the portal.<br /><br />
 <strong>Frontpage:</strong> This is the default setting. The portal page will greet viewers instead of the board index. Members will be able to access the board index by using the "forum" action, which can be accessed through the "forum" button.<br /><br />
 <strong>Integration:</strong> This will disable the portal page. Blocks are only usable in forum.<br /><br />
 <strong>Standalone:</strong> This will enable the portal to be displayed at a different url, away from the forum. The portal page appears in the url defined for the "Standalone URL" option. For details, check the PortalStandalone.php file found inside the forum root.';
-$helptxt['sp_maintenance'] = 'Als onderhoudsmodus is geactiveerd, dan is het portaal alleen maar zichtbaar voor leden met SimplePortal permissies.';
-$helptxt['sp_standalone_url'] = 'Volledige URL naar het standalone bestand.<br /><br />Voorbeeld: http://mijnforum.com/portaal.php';
-$helptxt['portaltheme'] = 'Selecteer het thema dat het portaal moet gebruiken.';
-$helptxt['sp_disableForumRedirect'] = 'Het activeren van deze optie zal het doorsturen naar onderwerp board index als forum index afdwingen in plaats van de portaal index.';
-$helptxt['sp_disableColor'] = 'Als de Member Color Link mod is geïnstalleerd, zal dit de mod op het portaal uitschakelen (Behalve in de Wie is er Online lijst).';
-$helptxt['sp_disable_random_bullets'] = 'Deactiveert het willekeurig kleuren van opsommingstekens in de portaal overzichten.';
-$helptxt['sp_disable_php_validation'] = 'Deactiveert mogelijkheid om PHP code in de blokken te valideren en zodoende syntax fouten te voorkomen.';
-$helptxt['sp_disable_php_eval'] = 'Disables the use of PHP\'s eval() function in favor of creating temporary PHP files.'; //Needs translation
-$helptxt['sp_html_escape_filter'] = 'Enables an escape/backslash filter for HTML block/page output.'; //Needs translation
-$helptxt['sp_php_html_escape_filter'] = 'Enables an escape/backslash filter for PHP block/page output.'; //Needs translation
-$helptxt['sp_disable_side_collapse'] = 'Deactiveert de mogelijkheid om de linker en de rechter kolommen in te laten klappen in het portaal.';
-$helptxt['sp_resize_images'] = 'Activeert het schalen van afbeeldingen in het Board nieuws en artikelen naar 300 x 300 pixels.';
+$helptxt['sp_maintenance'] = 'When maintenance is enabled, portal is only visible by members with Moderate EhPortal permission.';
+$helptxt['sp_standalone_url'] = 'Full URL to the standalone file.<br /><br />Example: http://myforum.com/portal.php';
+$helptxt['portaltheme'] = 'Select the theme which will be used for the portal.';
+$helptxt['sp_disableForumRedirect'] = 'If this box is unchecked, users will be redirected to the portal after they login or logout. If this box is checked, then users will be redirected to the BoardIndex.';
+$helptxt['sp_disableColor'] = 'If the Member Color Link mod is installed, this will disable the mod on the portal (except in the who\'s online list).';
+$helptxt['sp_disable_random_bullets'] = 'Disables random coloring for bullet images used in portal lists.';
+$helptxt['sp_disable_php_validation'] = 'Disables validation of PHP block codes, which is to prevent syntax and database errors in code.';
+$helptxt['sp_disable_php_eval'] = 'Disables the use of PHP\'s eval() function in favor of creating temporary PHP files.';
+$helptxt['sp_html_escape_filter'] = 'Enables an escape/backslash filter for HTML block/page output.';
+$helptxt['sp_php_html_escape_filter'] = 'Enables an escape/backslash filter for PHP block/page output.';
+$helptxt['sp_disable_side_collapse'] = 'Disables ability to collapse the left and right sides of the portal.';
+$helptxt['sp_resize_images'] = 'Enables resizing images in articles and board news to 300x300px, to prevent possible overflows.';
+$helptxt['sp_display_responsive'] = 'This setting will enable the EhPortal responsive display boot strap.';
+$helptxt['sp_add_url_params'] = 'Additional URL tracking paramaters to be ignored (comma separated).';
+$helptxt['sp_purge_php_dir'] = 'Purge the portal directory that contains temporary PHP files for blocks and pages.';
 
 // Block settings
-$helptxt['showleft'] = 'Dit zal de linker kolom met blokken in het portaal en forum activeren.';
-$helptxt['showright'] = 'Dit zal de rechter kolom met blokken in het portaal en forum activeren.';
-$helptxt['leftwidth'] = 'Als de linker kolom is geactiveerd, dan kan hier de breedte van deze kolom worden vastgelegd in pixels(px) of percentages(%).';
-$helptxt['rightwidth'] = 'Als de rechter kolom is geactiveerd, dan kan hier de breedte van deze kolom worden vastgelegd in pixels(px) of percentages(%).';
-$helptxt['sp_enableIntegration'] = 'Deze optie activeert de blokken in het forum. Hierdoor kunnen geavanceerde <em>opmaak opties</em> voor elk blok worden vast gelegd.';
-$helptxt['sp_IntegrationHide'] = 'Verberg blokken in bepaalde forum delen. De <em>Toon blokken in het forum</em> instelling moet geactiveerd worden om dit te laten werken.';
-$helptxt['sp_delay_time'] = 'This setting will determine the delay time of the News rotation in milliseconds.<br />An entry of 0 will disable the rotation.'; //Needs translation
-$helptxt['sp_fade_time'] = 'This setting will determine the delay time of the News fader in milliseconds.'; //Needs translation
-$helptxt['sp_bullets'] = 'This setting will determine if bullets will appear for News rotation.<br />This will be disabled if the delay time is set to 0.'; //Needs translation
+$helptxt['showleft'] = 'This will enable left side blocks on the portal and inside the forum.';
+$helptxt['showright'] = 'This will enable right side blocks on the portal and inside the forum.';
+$helptxt['leftwidth'] = 'If left side blocks are enabled, their width can be specified here. The width can be specified in pixels (px) or in percentages (%).';
+$helptxt['rightwidth'] = 'If right side blocks are enabled, their width can be specified here. The width can be specified in pixels (px) or in percentages (%).';
+$helptxt['sp_enableIntegration'] = 'This setting enables blocks inside the forum. It allows the advanced <em>Display Options</em> for each block to be specified.';
+$helptxt['sp_IntegrationHide'] = 'Hide blocks in certain forum sections. The <em>Display blocks in Forum</em> setting must be enabled for this to work.';
+$helptxt['sp_delay_time'] = 'This setting will determine the delay time of the News rotation in milliseconds.<br />An entry of 0 will disable the rotation.';
+$helptxt['sp_fade_time'] = 'This setting will determine the delay time of the News fader in milliseconds.';
+$helptxt['sp_bullets'] = 'This setting will determine if bullets will appear for News rotation.<br />This will be disabled if the delay time is set to 0.';
+$helptxt['sp_fix_php_entities'] = 'This will convert all HTML entities within PHP blocks & pages to their corresponding characters.';
+$helptxt['sp_fix_html_entities'] = 'This will convert all HTML entities within HTML blocks & pages to their corresponding characters.';
 
 // Article settings
-$helptxt['articleactive'] = 'Deze instelling activeerde het tonen van artikelen op het portaal.';
-$helptxt['articleperpage'] = 'Deze instelling is om het maximale aantal artikelen per pagina vast te leggen.';
-$helptxt['articlelength'] = 'Bij deze instelling kan worden vastgelegd na hoeveel karakters het bericht moet worden afgekapt op het portaal. Het afkappingsteken ziet er als volgt uit (...) Door hier op te klikken kan de bezoeker het hele artikel lezen.';
-$helptxt['articleavatar'] = 'Als deze instelling is geactiveerd dan zal de avatar van de auteur te zien zijn in het artikel.';
+$helptxt['articleactive'] = 'This setting enables articles to be displayed on the portal.';
+$helptxt['articleperpage'] = 'This sets the maximum amount of articles shown per page.';
+$helptxt['articlelength'] = 'This setting allows a limit to be set on the amount of characters an article can display on the portal page. If the article exceeds this limit it will be shortened and have an ellipsis (...) link on the end, which allows the user to view the entire article.';
+$helptxt['articleavatar'] = 'If this setting is enabled the authors avatar will be shown along with each article.';
+$helptxt['ehportal_cat_icons'] = 'Upload icons to the category directory.';
+$helptxt['ehPortalViewPath'] = 'View files located in the category icons target path.<br>These files are available when editing article categories.';
+$helptxt['ehPortalViewArtImage'] = 'View the image selected from the dropdown file menu';
+$helptxt['ehPortalDelArtImage'] = 'Delete the image selected from the dropdown file menu';
+$helptxt['articleportalactive'] = ' This setting enables detailed articles to be shown on the front page.<br />These will appear between the Top and Bottom Blocks';
 
 // Blocks area
-$helptxt['sp_BlocksArea'] = 'Blokken zijn kolommen die zichtbaar kunnen zijn in het forum of in het portaal. In deze sectie kunnen bestaande blokken worden aangepast en nieuwe worden aangemaakt.';
+$helptxt['sp_BlocksArea'] = 'Blocks are boxes which can be displayed on the portal or inside the forum. This section enables existing blocks to be modified, and new ones to be created.';
 
 // Block list
-$helptxt['sp-blocksLeftList'] = 'Deze blokken zijn zichtbaar in de linker kolom van het portaal of het forum.';
-$helptxt['sp-blocksTopList'] = 'Deze blokken zijn zichtbaar in de bovenzijde van het portaal of het forum.';
-$helptxt['sp-blocksBottomList'] = 'Deze blokken zijn zichtbaar in de onderzijde van het portaal of het forum.';
-$helptxt['sp-blocksRightList'] = 'Deze blokken zijn zichtbaar in de bovenzijde van het portaal of het forum.';
-$helptxt['sp-blocksHeaderList'] = 'These blocks are displayed on the top of the portal and forum.'; //Needs translation
-$helptxt['sp-blocksFooterList'] = 'These blocks are displayed on the bottom of the portal and forum.'; //Needs translation
+$helptxt['sp-blocksLeftList'] = 'These blocks are displayed on the left side of the portal and forum.';
+$helptxt['sp-blocksTopList'] = 'These blocks are centered at the top of the portal and forum.';
+$helptxt['sp-blocksBottomList'] = 'These blocks are centered at the bottom of the portal and forum.';
+$helptxt['sp-blocksRightList'] = 'These blocks are displayed on the right side of the portal and forum.';
+$helptxt['sp-blocksHeaderList'] = 'These blocks are displayed on the top of the portal and forum.';
+$helptxt['sp-blocksFooterList'] = 'These blocks are displayed on the bottom of the portal and forum.';
 
 // Add/Edit blocks
-$helptxt['sp-blocksAdd'] = 'Deze sectie maakt het mogelijk om een blok aan te maken.';
-$helptxt['sp-blocksSelectType'] = 'Deze sectie maakt het mogelijk om een blok aan te maken. Standaard blokken of aangepaste blokken kunnen eenvoudig worden aangemaakt via de diverse opties.';
-$helptxt['sp-blocksEdit'] = 'Deze sectie maakt het mogelijk om een geselecteerd blok aan te passen.';
-$helptxt['sp-blocksDisplayOptions'] = 'Hier kunt u instellen waar het blok zichtbaar moet zijn ';
-$helptxt['sp-blocksCustomDisplayOptions'] = 'Aangepaste beeld opties maakt het mogelijk om op een geavanceerde wijze controle te krijgen over het blok middels speciale syntaxis.<br /><br />
+$helptxt['sp-blocksAdd'] = 'This area enables the selected block to be customised and configured.';
+$helptxt['sp-blocksSelectType'] = 'This area enables blocks to be created for the portal page. Pre-built blocks or custom content blocks can be created easily by selecting the appropriate options.';
+$helptxt['sp-blocksEdit'] = 'This area enables the selected block to be customised and configured.';
+$helptxt['sp-blocksDisplayOptions'] = 'This area allows you to select on which pages block will appear.';
+$helptxt['sp-blocksCustomDisplayOptions'] = 'Custom display options allows a more advanced control over where to display the block with its special syntax.<br /><br />
 <strong>Special actions include:</strong><br /><br />
 <strong>all:</strong> every page in forum.<br />
 <strong>portal:</strong> portal page and it\'s sub-actions.<br />
@@ -76,39 +86,41 @@ This symbol acts as a wildcard, allowing you to include dynamic actions like ../
 Another wildcard sybmol which allows you to specify an exact value for a dynamic action like ../index.php?issue=1.0 or ../index.php?game=xyz. Should be used with wavy and after the action like; ~action|value<br /><br />
 <strong>Negator (-)</strong><br />
 This symbol is to exclude regular and dynamic actions. Should be used before the action name for regular actions and before the wavy for dynamic actions. Used as -action and -~action';
-$helptxt['sp-blocksStyleOptions'] = 'Door deze opties kan je CSS styling toepassen voor elk blok.';
+$helptxt['sp-blocksStyleOptions'] = 'These options allow you to specify CSS styling for each blocks.';
 
 // Articles area
-$helptxt['sp_ArticlesArea'] = 'Artikelen zijn onderwerpen (alleen het eerste bericht) die worden getoond in het portaal. Deze sectie maakt het mogelijk om bestaande artikelen aan te passen en nieuwe aan te maken.';
+$helptxt['sp_ArticlesArea'] = 'Articles are topics (first post only) which are displayed on the portal. This section enables existing articles to be modified, and new ones to be created for the portal.';
 
 // Add/Edit articles
-$helptxt['sp-articlesAdd'] = 'Deze optie stelt u in staat om boards of categorieën toe te voegen van het forum';
-$helptxt['sp-articlesEdit'] = 'Met deze optie kunt u de categorie of de status van het artikel wijzigen';
-$helptxt['sp-articlesCategory'] = 'Selecteer een categorie voor dit artikel.';
-$helptxt['sp-articlesApproved'] = 'Goedgekeurd artikel zal worden getoond op het portaal';
-$helptxt['sp-articlesTopics'] = 'Selecteer de onderwerpen, die als artikelen moeten worden getoond.';
-$helptxt['sp-articlesBoards'] = 'Selecteer een board om te zoeken naar onderwerpen.';
+$helptxt['sp-articlesAdd'] = 'This area allows you to add articles to categories from your boards.';
+$helptxt['sp-articlesEdit'] = 'In this area you change the category or status of the articles.';
+$helptxt['sp-articlesCategory'] = 'Select a category for this article.';
+$helptxt['sp-articlesApproved'] = 'Approved articles will appear on the portal articles area.';
+$helptxt['sp-articlesTopics'] = 'Select the topics to be displayed as articles on the portal.';
+$helptxt['sp-articlesBoards'] = 'Select a board to search for topics.';
+$helptxt['sp_add_article_button'] = 'Add or remove this post as an article.';
+$helptxt['sp-categoriesIcon'] = 'Choose a category icon file from the "../images/sp_cats" directory.';
 
 // Categories area
-$helptxt['sp_CategoriesArea'] = 'Categorieën bevatten artikelen. Deze sectie maakt het mogelijk om bestaande categorieën voor artikelen te bewerken en nieuwe aan te maken. Om een artikel aan te maken moet er tenminste een categorie zijn.';
+$helptxt['sp_CategoriesArea'] = 'Categories hold articles. This section enables existing categories to be modified, and new ones to be created for articles. To create an article there must be at least one category.';
 
 // Add/Edit categories
-$helptxt['sp-categoriesAdd'] = 'Deze sectie maakt het mogelijk om nieuwe categorieën voor artikelen aan te maken. Om een artikel aan te maken moet er tenminste een categorie zijn.';
-$helptxt['sp-categoriesEdit'] = 'Deze sectie maakt het mogelijk om bestaande categorieën voor artikelen te bewerken.';
-$helptxt['sp-categoriesCategories'] = 'Deze pagina maakt toont een overzicht van bestaande categorieën voor artikelen. Om een artikel aan te maken moet er tenminste een categorie zijn.';
-$helptxt['sp-categoriesDelete'] = 'Het verwijderen van een categorie zal de de artikelen verwijderen of ze verplaatsen naar een ander categorie.';
+$helptxt['sp-categoriesAdd'] = 'This section enables categories to be created for articles. To create articles there must be at least one category.';
+$helptxt['sp-categoriesEdit'] = 'This section enables categories to be modified.';
+$helptxt['sp-categoriesCategories'] = 'This page displays a list of the current article categories. To create articles there must be at least one category.';
+$helptxt['sp-categoriesDelete'] = 'Deleting a category will either delete the articles in it, or move them to another category.';
 
 // Pages area
-$helptxt['sp_PagesArea'] = 'De pagina\'s zijn  BBC, PHP or HTML code blokken welke worden getoond op een eigen pagina in uw forum. Deze sectie stelt u in staat om pagina\'s aan te maken, te wijzigen en te configureren. 
+$helptxt['sp_PagesArea'] = 'Pages are BBC, PHP or HTML code blocks that are shown on their own page within your forum. This section allows you to create, edit and configure your pages.';
 
 // Shoutbox area
-$helptxt['sp_ShoutboxArea'] = 'De Shoutbox moet worden aangemaakt in deze sectie. Deze sectie stelt u in staat om shoutboxen aan te maken en te configureren. 
+$helptxt['sp_ShoutboxArea'] = 'Shoutboxes need to be created in this section. This section allows shoutboxes to be created and configured. A shoutbox block will then need to be used to show the shoutbox that is created.';
 
 // Add/Edit shoutboxes
-$helptxt['sp-shoutboxesWarning'] = 'Het bericht dat u hier invult zal zichtbaar zijn in de shoutbox.
-$helptxt['sp-shoutboxesBBC'] = 'Deze instelling stelt u in staat om BBC codes te gebuiken in deze shoutbox..<br /><br />Druk op de  CTRL key om BBC codes te selecteren of te deselecteren. <br /><br />Indien u meerdere BBC codes wilt selecteren, klik dan op de eerste BBC code welke u wilt seleteren, houdt dan de SHIFT toetst ingedrukt, click dan op de laatste BBC code die u wilt selecteren. 
+$helptxt['sp-shoutboxesWarning'] = 'The warning message that you set here will be shown in the shoutbox, anyone using the shoutbox will see this message.';
+$helptxt['sp-shoutboxesBBC'] = 'This setting allows you to choose the BBC that can be used in this shoutbox.<br /><br />Hold down the CTRL key to select or deselect a particular BBC. <br /><br />If you want to select a series of consecutive BBC, then click on the first BBC that you want to select, hold down the SHIFT key, then click on the last BBC that you want to select.';
 
-$helptxt['sp_permissions'] = 'This option enables permissions to be used on blocks. The first three options are the simplest to use and understand. //Needs translation
+$helptxt['sp_permissions'] = 'This option enables permissions to be used on blocks. The first three options are the simplest to use and understand.
 <ul>
 	<li><strong>Guests:</strong> Any user who is not registered or logged in <em>will</em> see this block. Logged-in users (including Administrators) <em>will not</em> see this block.</li>
 	<li><strong>Members:</strong> Any user who is logged in (including Administrators) <em>will</em> see this block.</li>
@@ -123,67 +135,62 @@ $helptxt['sp_permissions'] = 'This option enables permissions to be used on bloc
 </ul>';
 
 // Block parameters
-$helptxt['sp_param_sp_latestMember_limit'] = 'Het aantal te tonen leden.';
-$helptxt['sp_param_sp_boardStats_averages'] = 'Toon statistieken.';
-$helptxt['sp_param_sp_topPoster_limit'] = 'Het aantal te tonen top posters.';
-$helptxt['sp_param_sp_topPoster_type'] = 'Vanaf wanneer top posters tonen.';
-$helptxt['sp_param_sp_recent_limit'] = 'Het aantal te tonen recente berichten of onderwerpen.';
-$helptxt['sp_param_sp_recent_type'] = 'Toon recente berichten of onderwerpen.';
-$helptxt['sp_param_sp_recentPosts_limit'] = 'Het aantal te tonen recente berichten.';
-$helptxt['sp_param_sp_recentTopics_limit'] = 'Het aantal te tonen recente berichten of onderwerpen.';
-$helptxt['sp_param_sp_topTopics_type'] = 'Sorteer onderwerpen op antwoorden of aantal maal bekeken.';
-$helptxt['sp_param_sp_topTopics_limit'] = 'Het aantal te tonen onderwerpen.';
-$helptxt['sp_param_sp_topBoards_limit'] = 'Het aantal te tonen boards.';
-$helptxt['sp_param_sp_showPoll_topic'] = 'Het ID van het onderwerp met de te tonen poll.';
-$helptxt['sp_param_sp_showPoll_type'] = 'Selecteer de wijze waarop polls moeten worden getoond. Normaal maakt het mogelijk om een poll aan te roepen via het topic ID, Recent toont de meest recente poll en willekeurig spreekt voor zich.';
-$helptxt['sp_param_sp_boardNews_board'] = 'Het ID van het board waar de onderwerpen vandaan komen. Laat deze leeg om onderwerpen uit alle zichtbare boards te tonen.';
-$helptxt['sp_param_sp_boardNews_limit'] = 'Het aantal te tonen nieuws items.';
-$helptxt['sp_param_sp_boardNews_start'] = 'Het ID van een bepaalde post om mee te beginnen (anders zal de eerste post gebruikt worden).';
-$helptxt['sp_param_sp_boardNews_length'] = 'Als dit ingevuld is dan zal het bericht afgekapt worden bij het hier ingevulde aantal karakters. Dit is zichtbaar door (...) of een "Lees meer" link.';
-$helptxt['sp_param_sp_boardNews_avatar'] = 'Deze optie maakt het mogelijk om avatars te tonen van het lid dat het nieuws heeft gepost.';
-$helptxt['sp_param_sp_boardNews_per_page'] = 'Het aantal te tonen berichten per pagina. Laat dit leeg om automatisch aanmaken van pagina\'s uit te schakelen.';
-$helptxt['sp_param_sp_attachmentImage_limit'] = 'Het aantal te tonen recente afbeelding bijlagen.';
-$helptxt['sp_param_sp_attachmentImage_direction'] = 'Afbeelding bijlagen kunnen horizontaal en verticaal uitgelijnd worden.';
-$helptxt['sp_param_sp_attachmentRecent_limit'] = 'Het aantal te tonen recente bijlagen.';
-$helptxt['sp_param_sp_calendar_events'] = 'Deze optie maakt het mogelijk om gebeurtenissen van de kalender te tonen.';
-$helptxt['sp_param_sp_calendar_birthdays'] = 'Deze optie maakt het mogelijk om verjaardagen van de kalender te tonen.';
-$helptxt['sp_param_sp_calendar_holidays'] = 'Deze optie maakt het mogelijk om feestdagen van de kalender te tonen.';
-$helptxt['sp_param_sp_calendarInformation_events'] = 'Deze optie maakt het mogelijk om gebeurtenissen van de kalender te tonen.';
-$helptxt['sp_param_sp_calendarInformation_future'] = 'Deze optie maakt het mogelijk om toekomstige gebeurtenissen van de kalender te tonen. U kunt het gewenste aantal dagen vooraf instellen. De optie om gebeurtenissen van de kalender te tonen moet dan wel aan staan. Om alleen gebeurtenissen van vandaag te tonen, gebruik "0".';
-$helptxt['sp_param_sp_calendarInformation_birthdays'] = 'Deze optie maakt het mogelijk om verjaardagen van de kalender te tonen.';
-$helptxt['sp_param_sp_calendarInformation_holidays'] = 'Deze optie maakt het mogelijk om feestdagen van de kalender te tonen.';
-$helptxt['sp_param_sp_rssFeed_url'] = 'Vul hier de URL van de RSS feed in.';
-$helptxt['sp_param_sp_rssFeed_show_title'] = 'Show feed titles.'; //Needs translation
-$helptxt['sp_param_sp_rssFeed_show_content'] = 'Show feed contents.'; //Needs translation
-$helptxt['sp_param_sp_rssFeed_show_date'] = 'Show feed dates.'; //Needs translation
-$helptxt['sp_param_sp_rssFeed_strip_preserve'] = 'HTML tags to preserve in feed content separated by commas.'; //Needs translation
-$helptxt['sp_param_sp_rssFeed_count'] = 'Het aantal te tonen items.';
-$helptxt['sp_param_sp_rssFeed_limit'] = 'Het aantal te tonen karakters van de RSS feeds inhoud.';
-$helptxt['sp_param_sp_staff_lmod'] = 'Deactiveert het tonen van lokale moderators.';
-$helptxt['sp_param_sp_articles_category'] = 'The category to display articles from.'; //Needs translation
-$helptxt['sp_param_sp_articles_limit'] = 'Het aantal te tonen artikelen.';
-$helptxt['sp_param_sp_articles_type'] = 'Toont willekeurig artikelen of het laatste artikel.';
-$helptxt['sp_param_sp_articles_image'] = 'Maakt het mogelijk om en categorie afbeelding, een avatar of niets te tonen in het artikel.';
-$helptxt['sp_param_sp_gallery_limit'] = 'Het aantal te tonen items.';
-$helptxt['sp_param_sp_gallery_type'] = 'Toont willekeurig afbeeldingen of de recentste afbeeldingen uit de galerij.';
-$helptxt['sp_param_sp_gallery_direction'] = 'Galerij afbeeldingen kunnen horizontaal of verticaal worden uitgelijnd.';
-$helptxt['sp_param_sp_arcade_limit'] = 'Het aantal te tonen items.';
-$helptxt['sp_param_sp_arcade_type'] = 'Toont van de Arcades meest gespeelde spel, beste speler, of de kampioen.';
-$helptxt['sp_param_sp_shop_style'] = 'Toont de rijkste leden of de shop items.';
-$helptxt['sp_param_sp_shop_limit'] = 'Het aantal te tonen items.';
-$helptxt['sp_param_sp_shop_type'] = 'Toont van de leden het totaal bedrag, het bedrag in de portemonnee of het totaal bedrag.';
-$helptxt['sp_param_sp_shop_sort'] = 'Toont willekeurig of recent toegevoegde items.';
-$helptxt['sp_param_sp_blog_limit'] = 'Het aantal te tonen items.';
-$helptxt['sp_param_sp_blog_type'] = 'Toont artikelen of blogs.';
-$helptxt['sp_param_sp_blog_sort'] = 'Toont willekeurig of recent toegevoegde blogs.';
-$helptxt['sp_param_sp_html_content'] = 'Plaats hier zelf gemaakte HTML code.';
-$helptxt['sp_param_sp_bbc_content'] = 'Plaats hier zelf gemaakte BBC code.';
-$helptxt['sp_param_sp_php_content'] = 'Plaats hier zelf gemaakte HTML code.';
-
-########## Old values from SimplePortal ##########
-/**
- * $helptxt['sp-blocksPermissionType'] = 'Deze optie maakt het mogelijk om permissies toe te passen op blokken. Of het lid moet in alle groepen zijn om het blok te zien, in een van de groepen of geen van de groepen (dan wordt het permissie systeem dus genegeerd). Hier kan het ingesteld worden.
- * $helptxt['sp_param_sp_rssFeed_titles_only'] = 'Toont feed titels, zonder inhoud.';
- */
+$helptxt['sp_param_sp_latestMember_limit'] = 'How many members to display.';
+$helptxt['sp_param_sp_boardStats_averages'] = 'Display average statistics.';
+$helptxt['sp_param_sp_topPoster_limit'] = 'How many top posters to display.';
+$helptxt['sp_param_sp_topPoster_type'] = 'Time period to show top posters from.';
+$helptxt['sp_param_sp_recent_limit'] = 'How many recent posts or topics to display.';
+$helptxt['sp_param_sp_recent_type'] = 'Display recent posts or topics.';
+$helptxt['sp_param_sp_recentPosts_limit'] = 'How many recent posts to display.';
+$helptxt['sp_param_sp_recentTopics_limit'] = 'How many recent topics to display.';
+$helptxt['sp_param_sp_topTopics_type'] = 'Sort topics by replies or views.';
+$helptxt['sp_param_sp_topTopics_limit'] = 'How many topics to display.';
+$helptxt['sp_param_sp_topBoards_limit'] = 'How many boards to display.';
+$helptxt['sp_param_sp_showPoll_topic'] = 'The ID of the topic containing the poll to be displayed.';
+$helptxt['sp_param_sp_showPoll_type'] = 'Select the way polls should be displayed. Normal enables a specific poll to be called by the topic ID, Recent displays the most recently posted poll, and random displays a random poll.';
+$helptxt['sp_param_sp_boardNews_board'] = 'The ID of the board where the topics come from. Leave empty to fetch topics from all visible boards.';
+$helptxt['sp_param_sp_boardNews_limit'] = 'The maximum number of news items to be displayed.';
+$helptxt['sp_param_sp_boardNews_start'] = 'The ID of a particular post to start with (otherwise the first result will be used).';
+$helptxt['sp_param_sp_boardNews_length'] = 'If specified, posts exceeding this limit will be shortened and have an ellipsis (...), or a "Read More" link placed on the end.';
+$helptxt['sp_param_sp_boardNews_avatar'] = 'Enables avatars to be displayed for the member who posted the board news.';
+$helptxt['sp_param_sp_boardNews_per_page'] = 'How many posts to display per page. Leave empty to disable pagination.';
+$helptxt['sp_param_sp_attachmentImage_limit'] = 'How many recently attached images to display.';
+$helptxt['sp_param_sp_attachmentImage_direction'] = 'Attachment images can be aligned horizontally or vertically.';
+$helptxt['sp_param_sp_attachmentRecent_limit'] = 'How many recent attachments to display.';
+$helptxt['sp_param_sp_calendar_events'] = 'Enables events from the calendar to be displayed.';
+$helptxt['sp_param_sp_calendar_birthdays'] = 'Displays birthdays from the calendar.';
+$helptxt['sp_param_sp_calendar_holidays'] = 'Displays holidays from the calendar.';
+$helptxt['sp_param_sp_calendarInformation_events'] = 'Enables events from the calendar to be displayed.';
+$helptxt['sp_param_sp_calendarInformation_future'] = 'Allows you to choose the number of days into the future from which upcoming calendar events will be shown. This requires the ability to display events from the calendar. To display only events for today, use "0".';
+$helptxt['sp_param_sp_calendarInformation_birthdays'] = 'Displays birthdays from the calendar.';
+$helptxt['sp_param_sp_calendarInformation_holidays'] = 'Displays holidays from the calendar.';
+$helptxt['sp_param_sp_rssFeed_url'] = 'Enter the full URL of the RSS feed.';
+$helptxt['sp_param_sp_rssFeed_show_title'] = 'Show feed titles.';
+$helptxt['sp_param_sp_rssFeed_show_content'] = 'Show feed contents.';
+$helptxt['sp_param_sp_rssFeed_show_date'] = 'Show feed dates.';
+$helptxt['sp_param_sp_rssFeed_strip_preserve'] = 'HTML tags to preserve in feed content separated by commas.';
+$helptxt['sp_param_sp_rssFeed_count'] = 'How many items to display.';
+$helptxt['sp_param_sp_rssFeed_limit'] = 'How many characters to display from the RSS feeds content.';
+$helptxt['sp_param_sp_staff_lmod'] = 'Disables Local Moderators from being listed.';
+$helptxt['sp_param_sp_articles_category'] = 'The category to display articles from.';
+$helptxt['sp_param_sp_articles_limit'] = 'How many articles to display.';
+$helptxt['sp_param_sp_articles_type'] = 'Displays random articles, or the latest articles.';
+$helptxt['sp_param_sp_articles_image'] = 'Enables a category image, avatar, or nothing to be displayed on the article.';
+$helptxt['sp_param_sp_articles_fullwidth'] = 'This will enable the fullwidth articles setting for this block.';
+$helptxt['sp_param_sp_gallery_limit'] = 'How many items to display.';
+$helptxt['sp_param_sp_gallery_type'] = 'Displays random or the latest gallery items.';
+$helptxt['sp_param_sp_gallery_direction'] = 'Gallery images can be aligned horizontally or vertically.';
+$helptxt['sp_param_sp_arcade_limit'] = 'How many items to display.';
+$helptxt['sp_param_sp_arcade_type'] = 'Displays the arcades most played games, best players, or longest champions.';
+$helptxt['sp_param_sp_shop_style'] = 'Displays the richest members or shop items.';
+$helptxt['sp_param_sp_shop_limit'] = 'How many items to display.';
+$helptxt['sp_param_sp_shop_type'] = 'Displays the members total money, pocketed money, or money in the bank.';
+$helptxt['sp_param_sp_shop_sort'] = 'Displays random or recently added items.';
+$helptxt['sp_param_sp_blog_limit'] = 'How many items to display.';
+$helptxt['sp_param_sp_blog_type'] = 'Displays articles or blogs.';
+$helptxt['sp_param_sp_blog_sort'] = 'Displays blogs randomly or by the latest blogs updated.';
+$helptxt['sp_param_sp_html_content'] = 'Enter the custom HTML content in this box.';
+$helptxt['sp_param_sp_bbc_content'] = 'Enter the custom BBC content in this box.';
+$helptxt['sp_param_sp_php_content'] = 'Enter the custom PHP content in this box.';
 
 ?>
