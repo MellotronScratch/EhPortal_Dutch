@@ -1,5 +1,5 @@
 <?php
-// Version: 1.39; EhPortal
+// Version: 1.39.5; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // https://github.com/MellotronScratch/EhPortal_Dutch/
 // Last revision: 2022-12-20 by MellotronScratch
@@ -10,7 +10,9 @@ $txt['sp-portal'] = 'Portaal';
 $txt['sp-adminTitle'] = 'EhPortal Beheer';
 $txt['sp-adminCatTitle'] = 'EhPortal'; // No translation
 $txt['sp-add_article'] = 'Voeg toe als artikel';
-$txt['sp-remove_article'] = 'Verwijder artikel';
+$txt['sp-remove_article'] = 'Verwijder uit artikelen';
+$txt['sp_add_article_button'] = 'Voeg artikel toe';
+$txt['sp_remove_article_button'] = 'Verwijder artikel';
 $txt['sp-dot'] = 'Punt';
 $txt['sp-arrow'] = 'Pijl';
 $txt['sp-star'] = 'Ster';
@@ -136,6 +138,9 @@ $txt['error_sp_no_shoutbox_normaluser'] = 'Sorry, Voordat er een shoutbox-blok k
 $txt['error_sp_cannot_shoutbox_moderate'] = 'You don\'t have permission to moderate this shoutbox.'; //Needs translation
 $txt['error_sp_no_block'] = 'There aren\'t any blocks created yet.'; //Needs translation
 $txt['error_sp_flood_spsbp'] = 'Your last shout was less than %1$d seconds ago. Please try again later.'; //Needs translation
+$txt['ehcat_not_writable'] = 'The EhPortal category icon directory is not writable!'; //Needs translation
+$txt['ehcat_upload_file_size'] = 'File size is too large!'; //Needs translation
+$txt['ehcat_upload_file'] = 'Problem uploading file!'; //Needs translation
 
 // Shoutbox
 $txt['sp_bold'] = 'Vet';
@@ -143,11 +148,9 @@ $txt['sp_italic'] = 'Cursief';
 $txt['sp_underline'] = 'Onderstrepen';
 $txt['sp_strike'] = 'Doorhalen';
 $txt['sp_preformatted'] = 'Pre'; //Needs translation
-$txt['sp_flash'] = 'Flash'; //Needs translation
 $txt['sp_image'] = 'Insert Image'; //Needs translation
 $txt['sp_hyperlink'] = 'Insert Hyperlink'; //Needs translation
 $txt['sp_insert_email'] = 'Insert Email'; //Needs translation
-$txt['sp_ftp'] = 'Insert FTP Link'; //Needs translation
 $txt['sp_glow'] = 'Glow'; //Needs translation
 $txt['sp_shadow'] = 'Schaduw';
 $txt['sp_superscript'] = 'Superscript'; //Needs translation
@@ -155,9 +158,19 @@ $txt['sp_subscript'] = 'Subscript'; //Needs translation
 $txt['sp_teletype'] = 'Teletype'; //Needs translation
 $txt['sp_bbc_quote'] = 'Quote'; //Needs translation
 $txt['sp_bbc_code'] = 'Code'; //Needs translation
+$txt['sp_bbc_me'] = 'IRC Action'; //Needs translation
 $txt['sp_font_size'] = 'Tekengrootte';
 $txt['sp_font_face'] = 'Font Face'; //Needs translation
 $txt['sp_change_color'] = 'Verander kleur'; 
+$txt['sp_bbc_none'] = 'No BBCode'; //Needs translation
+$txt['sp_bbc_colorize'] = 'Multicolor'; //Needs translation
+$txt['sp_bbc_input_name'] = 'Enter Name'; //Needs translation
+$txt['sp_bbc_dropdown'] = '--Select--'; //Needs translation
+$txt['sp_bbc_colors'] = 'green|red|yellow|orange|blue|purple'; /* edit the color wheel with actual css color names */ //Needs translation
+$txt['sp_bbc_color_names'] = 'Green|Red|Yellow|Orange|Blue|Purple'; /* edit for the names of the above colors */ //Needs translation
+$txt['sp_more_smileys'] = 'More Smileys'; //Needs translation
+$txt['sp_less_smileys'] = 'Less Smileys'; //Needs translation
+
 $txt['sp_logged_out'] = 'You have been logged out of the forum.'; //Needs translation
 $txt['sp_log_back'] = '<-- Click here to log back in -->'; //Needs translation
 $txt['sp_arcade_shout_guest_score'] = 'Guest scored %s on %s'; //Needs translation
