@@ -1,5 +1,5 @@
 ﻿<?php
-// Version: 1.39; EhPortal
+// Version: 1.39.5; EhPortal
 // Based on Dutch translation for Simple Portal 2.3
 // https://github.com/MellotronScratch/EhPortal_Dutch/
 // Last revision: 2022-12-20 by MellotronScratch
@@ -16,7 +16,7 @@ $txt['portalactive'] = 'Activeer EhPortal';
 $txt['sp_portal_mode'] = 'Portaal Modus';
 $txt['sp_portal_mode_options'] = 'Gedeactiveerd|Voorpagina|Geïntegreerd|Standalone';
 $txt['sp_maintenance'] = 'Onderhoudsmodus';
-$txt['sp_standalone_url'] = 'Standalone URL'; // No translation
+$txt['sp_standalone_url'] = 'Standalone URL'; //Needs translation
 $txt['sp_disableForumRedirect'] = 'Deactiveer Portaal Redirectie';
 $txt['sp_disableColor'] = 'Deactiveer gekleurde leden links';
 $txt['sp_disable_random_bullets'] = 'Deactiveer gekleurde opsommingstekens in blokken';
@@ -29,6 +29,8 @@ $txt['portaltheme'] = 'Portaal Thema';
 $txt['portalthemedefault'] = 'Forum Standaard';
 $txt['sp_resize_images'] = 'Schaal afbeeldingen in het portaal';
 $txt['sp_display_responsive'] = 'Enable Responsive Display'; //Needs translation
+$txt['sp_add_url_params'] = 'Ignore URL Tracking Paramaters'; //Needs translation
+$txt['sp_purge_php_dir'] = 'Purge "sp_blocks_temp" Directory'; //Needs translation
 
 // Block settings
 $txt['showleft'] = 'Activeer blokken in de linker kolom';
@@ -40,12 +42,20 @@ $txt['sp_IntegrationHide'] = 'Verberg blokken in het forum<br /><span class="sma
 $txt['sp_delay_time'] = 'News Delay Time'; //Needs translation
 $txt['sp_fade_time'] = 'News Fade Time'; //Needs translation
 $txt['sp_bullets'] = 'Display News Bullets'; //Needs translation
+$txt['sp_fix_php_entities'] = 'Convert HTML entities from PHP blocks & PHP Pages'; //Needs translation
+$txt['sp_fix_html_entities'] = 'Convert HTML entities from HTML blocks & HTML Pages'; //Needs translation
 
 // Article settings
 $txt['articleactive'] = 'Activeer artikelen';
 $txt['articleperpage'] = 'Maximum aantal artikelen per pagina';
 $txt['articlelength'] = 'Maximum aantal karakters voor het afbreken';
 $txt['articleavatar'] = 'Toon auteur avatar';
+$txt['ehportal_cat_icons'] = 'Upload Category Icon'; //Needs translation
+$txt['ehPortalBrowseIcons'] = 'View Files'; //Needs translation
+$txt['ehPortalViewPath'] = 'View Upload File Path'; //Needs translation
+$txt['ehPortalViewArtImage'] = 'View Selected Image'; //Needs translation
+$txt['ehPortalDelArtImage'] = 'Delete Selected Image'; //Needs translation
+$txt['articleportalactive'] = 'Front Page Articles'; //Needs translation
 
 // Blocks area
 $txt['sp-adminBlockListName'] = 'Blokken overzicht';
@@ -125,7 +135,7 @@ $txt['sp-mobileView'] = 'Mobile'; //Needs translation
 $txt['sp_function_sp_userInfo_label'] = 'Lid informatie';
 $txt['sp_function_sp_latestMember_label'] = 'Nieuwste lid';
 $txt['sp_function_sp_whosOnline_label'] = 'Wie is er online';
-$txt['sp_function_sp_showPoll_label'] = 'Poll'; // No translation
+$txt['sp_function_sp_showPoll_label'] = 'Poll'; //Needs translation
 $txt['sp_function_sp_boardStats_label'] = 'Board statistieken';
 $txt['sp_function_sp_quickSearch_label'] = 'Snel zoeken';
 $txt['sp_function_sp_topPoster_label'] = 'Top poster';
@@ -139,16 +149,16 @@ $txt['sp_function_sp_attachmentImage_label'] = 'Recente afbeelding bijlagen';
 $txt['sp_function_sp_attachmentRecent_label'] = 'Recent bijlagen';
 $txt['sp_function_sp_calendar_label'] = 'Kalender';
 $txt['sp_function_sp_calendarInformation_label'] = 'Kalender Informatie';
-$txt['sp_function_sp_rssFeed_label'] = 'RSS Feed'; // No translation
+$txt['sp_function_sp_rssFeed_label'] = 'RSS Feed'; //Needs translation
 $txt['sp_function_sp_theme_select_label'] = 'Thema Selectie';
 $txt['sp_function_sp_staff_label'] = 'Staf overzicht';
 $txt['sp_function_sp_articles_label'] = 'Artikelen';
-$txt['sp_function_sp_shoutbox_label'] = 'Shoutbox'; // No translation
+$txt['sp_function_sp_shoutbox_label'] = 'Shoutbox'; //Needs translation
 $txt['sp_function_sp_gallery_label'] = 'Galerij';
-$txt['sp_function_sp_arcade_label'] = 'Arcade'; // No translation
+$txt['sp_function_sp_arcade_label'] = 'Arcade'; //Needs translation
 $txt['sp_function_sp_shop_label'] = 'Winkel';
-$txt['sp_function_sp_blog_label'] = 'Blog'; // No translation
-$txt['sp_function_sp_menu_label'] = 'Forum Menu'; // No translation
+$txt['sp_function_sp_blog_label'] = 'Blog'; //Needs translation
+$txt['sp_function_sp_menu_label'] = 'Forum Menu'; //Needs translation
 $txt['sp_function_sp_bbc_label'] = 'Eigen BBC';
 $txt['sp_function_sp_html_label'] = 'Eigen HTML';
 $txt['sp_function_sp_php_label'] = 'Eigen PHP';
@@ -205,8 +215,8 @@ $txt['sp_param_sp_topTopics_type'] = 'Wijze van sorteren';
 $txt['sp_param_sp_topTopics_limit'] = 'Berichten te tonen';
 $txt['sp_param_sp_topBoards_limit'] = 'Boards te tonen';
 $txt['sp_param_sp_showPoll_topic'] = 'Onderwerp ID';
-$txt['sp_param_sp_showPoll_type'] = 'Type'; // No translation
-$txt['sp_param_sp_boardNews_board'] = 'Boards'; // No translation
+$txt['sp_param_sp_showPoll_type'] = 'Type'; //Needs translation
+$txt['sp_param_sp_boardNews_board'] = 'Boards'; //Needs translation
 $txt['sp_param_sp_boardNews_limit'] = 'Onderwerpen te tonen';
 $txt['sp_param_sp_boardNews_start'] = 'Start met bericht ID';
 $txt['sp_param_sp_boardNews_length'] = 'Maximum aantal karakters';
@@ -225,7 +235,7 @@ $txt['sp_param_sp_calendarInformation_events'] = 'Aantal dagen om gebeurtenissen
 $txt['sp_param_sp_calendarInformation_future'] = 'Toon te verwachten gebeurtenissen';
 $txt['sp_param_sp_calendarInformation_birthdays'] = 'Toon verjaardagen';
 $txt['sp_param_sp_calendarInformation_holidays'] = 'Toon feestdagen';
-$txt['sp_param_sp_rssFeed_url'] = 'Feed URL'; // No translation
+$txt['sp_param_sp_rssFeed_url'] = 'Feed URL'; //Needs translation
 $txt['sp_param_sp_rssFeed_show_title'] = 'Show Title'; //Needs translation
 $txt['sp_param_sp_rssFeed_show_content'] = 'Show Content'; //Needs translation
 $txt['sp_param_sp_rssFeed_show_date'] = 'Show Date'; //Needs translation
@@ -237,6 +247,7 @@ $txt['sp_param_sp_articles_category'] = 'Category'; //Needs translation
 $txt['sp_param_sp_articles_limit'] = 'Artikelen te tonen';
 $txt['sp_param_sp_articles_type'] = 'Toon type';
 $txt['sp_param_sp_articles_image'] = 'Afbeelding';
+$txt['sp_param_sp_articles_fullwidth'] = 'Use Full Width'; //Needs translation
 $txt['sp_param_sp_shoutbox_shoutbox'] = 'Shoutbox te tonen';
 $txt['sp_param_sp_gallery_limit'] = 'Items te tonen';
 $txt['sp_param_sp_gallery_type'] = 'Toon';
@@ -246,9 +257,9 @@ $txt['sp_param_sp_arcade_type'] = 'Toon';
 $txt['sp_param_sp_shop_style'] = 'Toon';
 $txt['sp_param_sp_shop_limit'] = 'Items te tonen';
 $txt['sp_param_sp_shop_type'] = 'Geld type';
-$txt['sp_param_sp_shop_sort'] = 'Item type'; // No translation
+$txt['sp_param_sp_shop_sort'] = 'Item type'; //Needs translation
 $txt['sp_param_sp_blog_limit'] = 'Items te tonen';
-$txt['sp_param_sp_blog_type'] = 'Item Type'; // No translation
+$txt['sp_param_sp_blog_type'] = 'Item Type'; //Needs translation
 $txt['sp_param_sp_blog_sort'] = 'Toon';
 $txt['sp_param_sp_html_content'] = 'Eigen HTML';
 $txt['sp_param_sp_bbc_content'] = 'Eigen BBC';
@@ -264,6 +275,7 @@ $txt['sp_param_sp_showPoll_type_options'] = 'Normaal|Recent|Willekeurig';
 $txt['sp_param_sp_attachmentImage_direction_options'] = 'Verticaal|Horizontaal';
 $txt['sp_param_sp_articles_type_options'] = 'Recentste|Willekeurig';
 $txt['sp_param_sp_articles_image_options'] = 'Geen|Poster Avatar|Categorie afbeelding';
+$txt['sp_param_sp_articles_fullwidth_options'] = 'Default|Fullwidth'; //Needs translation
 $txt['sp_param_sp_gallery_type_options'] = 'Recentste|Willekeurig';
 $txt['sp_param_sp_gallery_direction_options'] = 'Verticaal|Horizontaal';
 $txt['sp_param_sp_arcade_type_options'] = 'Meest gespeeld|Beste spelers|Kampioen';
@@ -292,6 +304,8 @@ $txt['sp-articlesAdd'] = 'Voeg een artikel toe';
 $txt['sp-articlesEdit'] = 'Bewerk een artikel';
 $txt['sp-articlesCategory'] = 'Artikel categorie';
 $txt['sp-articlesApproved'] = 'Goedgekeurd';
+$txt['sp-categoriesIcon'] = 'Select Local File'; //Needs translation
+$txt['sp-categoriesSelectIcon'] = 'Select Icon'; //Needs translation
 
 // Categories area
 $txt['sp-adminCategoryListName'] = 'Categorie overzicht';
@@ -319,13 +333,13 @@ $txt['sp-categoriesMove'] = 'Verplaats';
 $txt['sp-categoriesMoveTo'] = 'Verplaats naar';
 
 // Block list titles
-$txt['sp-adminColumnType'] = 'Type'; // No translation
+$txt['sp-adminColumnType'] = 'Type'; //Needs translation
 $txt['sp-adminColumnMove'] = 'Verplaats';
 
 // Article list titles
 $txt['sp-adminColumnTopic'] = 'Onderwerp';
-$txt['sp-adminColumnBoard'] = 'Board'; // No translation
-$txt['sp-adminColumnPoster'] = 'Poster'; // No translation
+$txt['sp-adminColumnBoard'] = 'Board'; //Needs translation
+$txt['sp-adminColumnPoster'] = 'Poster'; //Needs translation
 $txt['sp-adminColumnTime'] = 'Tijd';
 $txt['sp-adminColumnCategory'] = 'Categorie';
 $txt['sp-adminColumnApproved'] = 'Goedgekeurd';
@@ -347,7 +361,7 @@ $txt['sp_admin_pages_style'] = 'Stijl opties';
 
 $txt['sp_admin_pages_desc'] = 'Je kan hier SimplePortal pagina\'s aanmaken en beheren.';
 $txt['sp_pages_remove_confirm'] = 'Weet je het zeker dat je de geselecteerde pagina\'s wilt verwijderen?';
-$txt['sp_admin_pages_delete_confirm'] = 'Weet u zeker dat u deze pagina wilt verwijderen? ';
+$txt['sp_admin_pages_delete_confirm'] = 'Weet u zeker dat u deze pagina wilt verwijderen?';
 $txt['sp_error_no_pages'] = 'Er zijn geen pagina\'s beschikbaar.';
 $txt['sp_error_page_name_empty'] = 'Sorry, je hebt het naamveld niet ingevuld.';
 $txt['sp_error_page_namespace_empty'] = 'Sorry, je hebt het pagina ID veld niet ingevuld.';
@@ -357,8 +371,8 @@ $txt['sp_error_page_namespace_numeric'] = 'Sorry, pagina ID\'s kunnen niet allee
 
 $txt['sp_admin_pages_col_title'] = 'Titel';
 $txt['sp_admin_pages_col_namespace'] = 'Pagina ID';
-$txt['sp_admin_pages_col_body'] = 'Body'; // No translation
-$txt['sp_admin_pages_col_type'] = 'Type'; // No translation
+$txt['sp_admin_pages_col_body'] = 'Body'; //Needs translation
+$txt['sp_admin_pages_col_type'] = 'Type'; //Needs translation
 $txt['sp_admin_pages_col_views'] = 'Bekeken';
 $txt['sp_admin_pages_col_status'] = 'Actief';
 $txt['sp_admin_pages_col_resize'] = 'Minimal Page Height'; //Needs translation
@@ -382,12 +396,12 @@ $txt['sp_admin_pages_deactivate'] = 'Deactiveer';
 
 $txt['sp_pages_default_title'] = 'Pagina zonder titel';
 
-$txt['sp_pages_type_bbc'] = 'BBC'; // No translation
-$txt['sp_pages_type_html'] = 'HTML'; // No translation
-$txt['sp_pages_type_php'] = 'PHP'; // No translation
+$txt['sp_pages_type_bbc'] = 'BBC'; //Needs translation
+$txt['sp_pages_type_html'] = 'HTML'; //Needs translation
+$txt['sp_pages_type_php'] = 'PHP'; //Needs translation
 
 // Shoutboxes Area
-$txt['sp_admin_shoutbox_title'] = 'Shoutbox'; // No translation
+$txt['sp_admin_shoutbox_title'] = 'Shoutbox'; //Needs translation
 $txt['sp_admin_shoutbox_list'] = 'Shoutbox overzicht';
 $txt['sp_admin_shoutbox_add'] = 'Voeg een Shoutbox toe';
 $txt['sp_admin_shoutbox_edit'] = 'Bewerk Shoutbox';
@@ -401,9 +415,9 @@ $txt['sp_error_no_shoutbox'] = 'Er zijn geen Shoutboxen beschikbaar.';
 $txt['sp_error_shoutbox_name_duplicate'] = 'Sorry, er bestaat reeds een shoutbox met deze naam';
 
 $txt['sp_admin_shoutbox_col_name'] = 'Naam';
-$txt['sp_admin_shoutbox_col_shouts'] = 'Shouts'; // No translation
-$txt['sp_admin_shoutbox_col_caching'] = 'Caching'; // No translation
-$txt['sp_admin_shoutbox_col_status'] = 'Status'; // No translation
+$txt['sp_admin_shoutbox_col_shouts'] = 'Shouts'; //Needs translation
+$txt['sp_admin_shoutbox_col_caching'] = 'Caching'; //Needs translation
+$txt['sp_admin_shoutbox_col_status'] = 'Status'; //Needs translation
 $txt['sp_admin_shoutbox_col_shout_score'] = 'Shout Arcade Member Scores'; //Needs translation
 $txt['sp_admin_shoutbox_col_shout_arena_score'] = 'Shout Arcade Arena Scores'; //Needs translation
 $txt['sp_admin_shoutbox_col_shout_guest_score'] = 'Shout Arcade Guest Scores'; //Needs translation
@@ -425,6 +439,8 @@ $txt['sp_admin_shoutbox_col_moderators'] = 'Moderators'; //Needs translation
 $txt['sp_admin_shoutbox_col_reverse'] = 'Keer volgorde om';
 $txt['sp_admin_shoutbox_activate'] = 'Activeer';
 $txt['sp_admin_shoutbox_deactivate'] = 'Deactiveer';
+$txt['sp_admin_shoutbox_smiley_scale'] = 'Smiley Container Scaling (60% - 100%)'; //Needs translation
+$txt['sp_admin_shoutbox_bbc_scale'] = 'BBC Container Scaling (60% - 100%)'; //Needs translation
 
 $txt['sp_shoutbox_default_name'] = 'Shoutbox zonder titel';
 
@@ -439,10 +455,10 @@ $txt['sp_admin_shoutbox_opt_all'] = 'Delete all shouts'; //Needs translation
 $txt['sp_admin_shoutbox_opt_days'] = 'Delete shouts older than a number of days'; //Needs translation
 $txt['sp_admin_shoutbox_opt_member'] = 'Delete shouts posted by a member'; //Needs translation
 
-$txt['sp_admin_shoutbox_block_redirect_message'] = 'Gefeliciteerd, u heeft een nieuwe shoutbox gecreëerd! De shoutbox is nog niet zichtbaar op uw forum.<br />
+$txt['sp_admin_shoutbox_block_redirect_message'] = 'Gefeliciteerd, u heeft een nieuwe shoutbox gecreëerd! De shoutbox is nog niet zichtbaar op uw forum.<br />';
 <p>Although it won\'t be displayed anywhere within your forum yet. You will need to create a shoutbox block before your users can use the shoutbox.</p>
 <p>Click <a href="%s">here</a> to create a new shoutbox block for this shoutbox.</p>
-<p>Click <a href="%s">here</a> to continue to your list of shoutboxes.</p>'; //Needs translation
+<p>Click <a href="%s">here</a> to continue to your list of shoutboxes.</p>';
 
 // General titles
 $txt['sp-adminColumnAction'] = 'Actie';
@@ -470,7 +486,7 @@ $txt['sp-info_general'] = 'Algemene informatie';
 $txt['sp-info_versions'] = 'Versie informatie';
 $txt['sp-info_your_version'] = 'Jouw versie';
 $txt['sp-info_current_version'] = 'Actuele versie';
-$txt['sp-info_managers'] = 'Managers'; // No translation
+$txt['sp-info_managers'] = 'Managers'; //Needs translation
 $txt['sp-info_intro'] = 'Het EhPortal Team wil iedereen bedanken, die meegeholpen hebben om EhPortal te maken voor wat het nu is en het Simple Machines Team voor het fantastische forum software, SMF. Het zou niet mogelijk zijn geweest zonder jullie, onze gebruikers en SMF.';
 $txt['sp-info_team'] = 'Het Team';
 $txt['sp-info_special'] = 'Een speciaal bedankje voor';
@@ -482,7 +498,7 @@ $txt['sp-info_groups_webdev'] = 'EhPortal Developers'; //Needs translation
 $txt['sp-info_groups_support'] = 'Support specialisten';
 $txt['sp-info_groups_customize'] = 'Aanpassers';
 $txt['sp-info_groups_language'] = 'Taal managers';
-$txt['sp-info_groups_marketing'] = 'Marketing'; // No translation
+$txt['sp-info_groups_marketing'] = 'Marketing'; //Needs translation
 $txt['sp-info_groups_beta'] = 'Beta testers';
 $txt['sp-info_groups_translators'] = 'Vertalers';
 $txt['sp-info_translators_message'] = 'Hartelijk dank voor je inzet om EhPortal te internationaliseren.';
@@ -493,8 +509,8 @@ $txt['sp-info_fam_fam_message'] = 'Mark James voor zijn <a href="http://www.famf
 $txt['sp-info_contribute'] = 'Gebruik je SimplePortal? <a href="%s" target="_blank">Doe een bijdrage aan het project!</a>.';
 
 // Permissions
-$txt['permissiongroup_sp'] = 'EhPortal'; // No translation
-$txt['permissiongroup_simple_sp'] = 'EhPortal'; // No translation
+$txt['permissiongroup_sp'] = 'EhPortal'; //Needs translation
+$txt['permissiongroup_simple_sp'] = 'EhPortal'; //Needs translation
 $txt['permissionname_sp_admin'] = 'Beheer portaal';
 $txt['permissionhelp_sp_admin'] = 'Deze permissie staat gebruikers toe om EhPortal te beheren.';
 $txt['permissionname_sp_manage_settings'] = 'Beheer portaal instellingen';
@@ -520,19 +536,4 @@ $txt['permissionhelp_sp_own_profile'] = 'This permission allows users to edit th
 $txt['sp-adminCatHelp'] = 'Hier kan je EhPortal beheren.';
 $txt['sp-adminCatDesc'] = 'Hier kan je EhPortal beheren.';
 
-########## Old values from SimplePortal ##########
-/**
- * $txt['sp-blocksMoveUp'] = 'Omhoog';
- * $txt['sp-blocksMoveDown'] = 'Omlaag';
- * $txt['sp-blocksMoveLeft'] = 'Verplaats naar links';
- * $txt['sp-blocksMoveRight'] = 'Verplaats naar rechts';
- * $txt['sp-blocksPermissionAll'] = 'Alle ledengroepen';
- * $txt['sp-blocksPermissionOne'] = 'Een ledengroep';
- * $txt['sp-blocksPermissionIgnore'] = 'Negeer permissies';
- * $txt['sp-blocksPermissions'] = 'Blok permissies';
- * $txt['sp-blocksPermissionType'] = 'Instellingen permissies';
- * $txt['sp_param_sp_rssFeed_titles_only'] = 'Alleen titels';
- * $txt['sp_admin_pages_col_permissions_type'] = 'Permissie Type';
- * $txt['sp_admin_shoutbox_col_permissions_type'] = 'Permissie Type';
- */
 ?>
